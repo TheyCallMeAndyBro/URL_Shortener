@@ -4,7 +4,7 @@ This website is create by Node.js & Express.js. Users can shorten lengthy URLs h
 
 
 
-![Demo](<Recording 2023-10-07 at 22.05.05.gif>)
+
 
 
 ## Features

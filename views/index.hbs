@@ -17,7 +17,8 @@
 {{else}}
 <div class=" container submit button">
   <form class="d-flex justify-content-center flex-column " action="/URL_Shortener" method="post">
-    <input class="form-control" type="text" id="urlInput" name="inputURL" placeholder="Input URL here" required>
+    <input class="form-control" type="text" id="urlInput" name="inputURL" placeholder="Input URL here" >
+    {{!-- required 可以再input最後面加入 可以防止輸入空字串 --}}
     <button type="submit" class="btn btn-primary mt-3">Shorten URL </button>
   </form>
 </div>
