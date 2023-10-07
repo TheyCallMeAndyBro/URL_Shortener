@@ -4,7 +4,8 @@ This website is create by Node.js & Express.js. Users can shorten lengthy URLs h
 
 ![螢幕擷取畫面 2023-10-08 005828](https://github.com/TheyCallMeAndyBro/URL_Shortener/assets/133637358/242aace9-a640-4c4c-99bb-4ca635005729)
 
-![螢幕擷取畫面 2023-10-08 005855](https://github.com/TheyCallMeAndyBro/URL_Shortener/assets/133637358/7bc1c8e9-ccd3-49f0-8128-7d8efb9571c1)
+
+![螢幕擷取畫面 2023-10-08 005952](https://github.com/TheyCallMeAndyBro/URL_Shortener/assets/133637358/c3fb4740-ae2c-4084-80c1-fc55d797bbe6)
 
 
 
