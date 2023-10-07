@@ -1,0 +1,30 @@
+{{#if useshortUrl }}
+<div class=" container submit button text-center">
+  <h2>Success! Use this link</h2>
+  <h3 id="newUrl"> <a href="http://localhost:3000/{{useshortUrl}}"> http:/localhost:3000/{{useshortUrl}}</a></h3>
+  <button type="button" class="btn btn-primary " onclick="copy()">Copy</button>
+  <script>
+    function copy(){   //插入js語法 添加copy功能
+      const url = document.querySelector("#newUrl")
+      navigator.clipboard.writeText(url.innerText)
+      .then(() => alert("複製成功") )
+      .catch((err) => {
+        console.error(err);
+      })
+    }
+  </script>
+</div>
+{{else}}
+<div class=" container submit button">
+  <form class="d-flex justify-content-center flex-column " action="/URL_Shortener" method="post">
+    <input class="form-control" type="text" id="urlInput" name="inputURL" placeholder="Input URL here" required>
+    <button type="submit" class="btn btn-primary mt-3">Shorten URL </button>
+  </form>
+</div>
+{{/if}}
+
+{{#if error}}
+<div class="alert alert-danger" role="alert">
+  {{error}}
+</div>
+{{/if}}
