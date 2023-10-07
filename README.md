@@ -3,6 +3,7 @@
 This website is create by Node.js & Express.js. Users can shorten lengthy URLs here. Once a URL successfully shortened, user can use the generated short URL to access the original website. Users can retrun to the homepage by clicking the home icon. Hope you can have a great user experience!
 
 
+![Uploading Recording 2023-10-08 at 00.55.39.gif…]()
 
 
 
